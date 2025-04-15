@@ -66,7 +66,9 @@ def main():
         while ready(hashid) != "processed":
             print("Waiting on sample to process...")
             time.sleep(1)
-        print("Sample is processed!")
+        print("Sample has been processed and has the sha1: "+ hashid)
+    else:
+        print("Sample has been uploaded and has the sha1: "+ hashid)
 
 
 
