@@ -5,7 +5,7 @@ Send a file to Spectra Analyze, then wait for the analysis to be done.
 1) Python Requests installed via PyPi: https://pypi.org/project/requests/
 
 #### Command Line Arguments
-1) --filePath : 
+1) --filePath : Full path to the file to upload
 2) --sampleName : Name you want to appear in the Analyze Dashboard
 3) --token : API token
 4) --url : URL of the A1000/Analyze instance
